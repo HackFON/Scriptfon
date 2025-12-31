@@ -14,7 +14,7 @@ keyFrame.Size = UDim2.new(0, 300, 0, 150); keyFrame.Position = UDim2.new(0.5, -1
 keyFrame.BackgroundColor3 = Color3.fromRGB(15, 15, 15); keyFrame.Active = true; keyFrame.Draggable = true; keyFrame.Parent = keyGui
 
 local title = Instance.new("TextLabel")
-title.Size = UDim2.new(1, 0, 0, 40); title.Text = "Script for fly"; title.TextColor3 = Color3.new(1, 1, 1)
+title.Size = UDim2.new(1, 0, 0, 40); title.Text = "Script fon fly"; title.TextColor3 = Color3.new(1, 1, 1)
 title.BackgroundTransparency = 1; title.TextSize = 25; title.Font = Enum.Font.SourceSansBold; title.Parent = keyFrame
 
 local keyBox = Instance.new("TextBox")
@@ -53,7 +53,7 @@ checkBtn.MouseButton1Click:Connect(function()
         up.Name = "up"; up.Parent = Frame; up.BackgroundColor3 = Color3.fromRGB(79, 255, 152); up.Size = UDim2.new(0, 44, 0, 28); up.Text = "UP"
         down.Name = "down"; down.Parent = Frame; down.BackgroundColor3 = Color3.fromRGB(215, 255, 121); down.Position = UDim2.new(0, 0, 0.49, 0); down.Size = UDim2.new(0, 44, 0, 28); down.Text = "DOWN"
         onof.Name = "onof"; onof.Parent = Frame; onof.BackgroundColor3 = Color3.fromRGB(255, 249, 74); onof.Position = UDim2.new(0.7, 0, 0.49, 0); onof.Size = UDim2.new(0, 56, 0, 28); onof.Text = "fly"
-        TextLabel.Parent = Frame; TextLabel.BackgroundColor3 = Color3.fromRGB(242, 60, 255); TextLabel.Position = UDim2.new(0.47, 0, 0, 0); TextLabel.Size = UDim2.new(0, 100, 0, 28); TextLabel.Text = "Fly GUI V3"; TextLabel.TextScaled = true
+        TextLabel.Parent = Frame; TextLabel.BackgroundColor3 = Color3.fromRGB(242, 60, 255); TextLabel.Position = UDim2.new(0.47, 0, 0, 0); TextLabel.Size = UDim2.new(0, 100, 0, 28); TextLabel.Text = "Fly FON V3"; TextLabel.TextScaled = true
         plus.Name = "plus"; plus.Parent = Frame; plus.BackgroundColor3 = Color3.fromRGB(133, 145, 255); plus.Position = UDim2.new(0.23, 0, 0, 0); plus.Size = UDim2.new(0, 45, 0, 28); plus.Text = "+"
         speedLabel.Name = "speed"; speedLabel.Parent = Frame; speedLabel.BackgroundColor3 = Color3.fromRGB(255, 85, 0); speedLabel.Position = UDim2.new(0.47, 0, 0.49, 0); speedLabel.Size = UDim2.new(0, 44, 0, 28); speedLabel.Text = "1"
         mine.Name = "mine"; mine.Parent = Frame; mine.BackgroundColor3 = Color3.fromRGB(123, 255, 247); mine.Position = UDim2.new(0.23, 0, 0.49, 0); mine.Size = UDim2.new(0, 45, 0, 29); mine.Text = "-"
